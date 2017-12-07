@@ -3,8 +3,8 @@
 
 En esta práctima hemos aplicado modificaciones sobre contenido multimedia: imágenes, audio y vídeo. Además de trabajar para crear un banner publicitario, e integrar todo esto en el escaparate virtual creado anteriormente.
 
+
 ## Secciones y modificaciones
---------------------
 
 ### 1. Audio
 Modificaciones con WavePad al clip [Tomorrow](https://www.bensound.com/royalty-free-music/track/tomorrow)
@@ -14,10 +14,10 @@ Modificaciones con WavePad al clip [Tomorrow](https://www.bensound.com/royalty-f
 + **Cambio de velocidad y altura de sonido**: Duracion resultante 60 seg, Semitonos -3.206, Velocidad-altura 83%.
 
 ### 2. Video
+La edición de vídeo la he realizado con Windows Movie Maker. La primera modificación ha sido aumentar la velocidad del vídeo (Edit - speed: 2x), para hacer un corte de 10 segundos que abarcase una escena completa de la tierra de polo norte a polo sur. Después de esto, he cortado los 10 segundos que más me gustaban, y he aplicado los filtros **Hue - cycle entire color spectrum** y **Fade out black** para que el vídeo termine más suavemente. Además, he incluido una imágen de la tierra al inicio con efecto **Crossfade**, y un efecto de transición entre imágen y vídeo **Pixelado**.
 
 ### 3. Imágenes
-
-En todas las imágenes expuestas, al hacer click en la miniatura te dirige a una página con la imagen en tamaño original. Además, todas llevan la marca de agua abajo a la derecha, generada coon una capa de texto blanca o negra y un 60% de transparencia. Todos los retoques son con photoshop.
+En todas las imágenes expuestas, al hacer click en la miniatura, te dirige a una página con la imagen en tamaño original. Además, todas llevan la marca de agua abajo a la derecha, generada coon una capa de texto blanca o negra y un 60% de transparencia. Los retoques están realizados con photoshop.
 
 + **Desierto y Desierto1**: imagen en la que se borra a una persona del centro de la foto. Realizado con el tampón de clonar.
 
@@ -25,9 +25,12 @@ En todas las imágenes expuestas, al hacer click en la miniatura te dirige a una
 
 + **Sequía 2 y Sequía2_2**: a la primera imágen se le aplican dos retoques de color, la parte del cielo más azulada y la del suelo más verde y con un aspecto más de primavera (de nuevo, trabajo por capas). Sobre esta imágen he aplicado un segundo retoque, desaturando las nubes y aplicando un filtro de lluvia: sobre una capa nueva con fondo negro se apica un filtro "ruido" y después un desenfoque de movimiento en oblicuo, simulando la lluvia. Esta capa se pone en modo trama, y jugando con el brillo y el contraste, y poniendo un poco de claridad cercana al suelo, se genera el efecto lluvia.
 
+### 4. Banner
+
 
 
 #### Autora
 
 * **Paz Rubio Rubio** - [Github](https://github.com/LexaHunter)
 
+[Readme - plantilla](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
