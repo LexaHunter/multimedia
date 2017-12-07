@@ -55,6 +55,9 @@ section {
   margin-top: 20px; }
   .carrusel video {
     width: 100%; }
+  .carrusel audio {
+    margin-left: 700px;
+    width: 10%; }
 
 #titulosF, #titulosP {
   margin: 40px; }
@@ -68,7 +71,7 @@ section {
 
 /*  EFECTO */
 .piedefoto {
-  margin-left: 45px;
+  margin-left: 20px;
   width: 90%;}
   .piedefoto img {
     width: 90%; }
