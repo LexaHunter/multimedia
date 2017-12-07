@@ -1,0 +1,206 @@
+$color_1: black
+$color_2: #FF7878
+$color_3: #fff
+$color_4: grey
+$color_5: #eee
+$color_6: #EE5656
+$color_7: #606468
+$background_1: #FEF0F0
+$background_2: white
+$background_3: #333333
+$font: "Verdana"
+$efecto_1: 0 4px 8px 0 rgba(0,0,0,0.2)
+$efecto_2: 0 8px 16px 0 rgba(0,0,0,0.5)
+$efecto_3: 0.3s
+
+
+/* Mixins */
+=flexbox
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: space-around 
+
+
+    
+    
+*
+    font-family: $font
+
+/* Links */
+
+a
+    text-decoration: none
+    &:link
+        color: $color_1
+    &:hover
+        color: $color_2
+
+
+.links 
+    a
+        &:link
+            color: $color_2
+        &:hover
+            color: $background_1
+            font-weight: bold
+
+/* HEADER */
+header
+    width: 100%
+
+.buscar
+    margin-top: 30%
+
+nav
+    margin-top: 15%
+    li 
+        display: inline-block
+
+.logo img
+    width: 100%
+    margin-bottom: 10%
+
+
+.log img
+    margin-top: 60%
+    width: 70%
+
+
+.carrito img
+    margin-top: 60%
+    width: 65%
+
+
+/* CARRUSEL */
+
+p
+    text-align: center
+
+
+section
+    border-top: 4px solid $color_2
+    background: $background_1
+
+
+.carrusel
+    margin-bottom: 15px
+    margin-top: 20px 
+    img
+        width: 100%
+
+
+#titulosF, #titulosP
+    margin: 50px
+    
+/* FLEX PINTURA Y FOTO */
+
+.fotografia, .pintura
+    +flexbox
+    margin-bottom: 50px
+  
+/* CARDS */
+
+/*  EFECTO */
+.piedefoto 
+    box-shadow: $efecto_1
+    transition: $efecto_3
+    background: $background_2
+    img 
+        width: 100%
+    &:hover /*  EFECTO */
+        box-shadow: $efecto_2
+
+.contenedor 
+    padding: 10px 16px
+    background-color: $background_2
+    position: relative
+    p
+        text-align: left
+        display: inline
+    img
+        width: 25%
+        position: absolute
+        left: 115px
+        top: 8px
+        
+/* VER MAS */
+.vermas img
+    width: 4%
+    margin-left: 10px
+
+/* FOOTER */
+
+footer
+    background-color: $background_3
+    width: 100%
+    .RRSS, .links
+        margin-top: 15px
+        +flexbox
+        align-items: center
+        margin-bottom: 15px
+        width: 100% 
+
+
+/* Sing up now */
+.login a
+    color: $color_4
+    text-decoration: none
+
+.login a:hover 
+    color: $color_2
+    text-decoration: underline
+
+.signup
+    color: $color_4
+
+/* User y Pass */
+.login input 
+    border: none
+    font-family: $font
+
+/* LogIn  */
+.login
+    text-align: center
+    margin: 50px auto
+    width: 280px
+
+.login form input
+    height: 50px
+    color: $color_7
+    margin-bottom: 1em
+    padding: 0 16px
+    width: 198px
+
+/* Sign in */
+.login form input[type="submit"] 
+    background-color: $color_2
+    color: $color_5
+    font-weight: bold
+    width: 95%
+    &:hover 
+        background-color: $color_6
+
+/* Error 404 */
+.error
+    font-family: $font
+    font-size: 30px
+    color: $color_4
+    text-align: center
+    background-color: $background_1
+    height: 100%
+    width: 100%
+
+.error h1
+    margin-left: 5%
+    text-align: left
+
+.error h2
+    margin-right: 5%
+    text-align: right
+
+#volver
+    margin-left: 93%
+
+
+

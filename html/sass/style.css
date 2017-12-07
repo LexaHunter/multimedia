@@ -1,0 +1,152 @@
+
+
+/* Mixins */
+* {
+  font-family: "Verdana"; }
+
+/* Links */
+a {
+  text-decoration: none; }
+  a:link {
+    color: black; }
+  a:hover {
+    color: #FF7878; }
+
+.links a:link {
+  color: #FF7878; }
+.links a:hover {
+  color: #FEF0F0;
+  font-weight: bold; }
+
+/* HEADER */
+header {
+  width: 100%; }
+
+.buscar {
+  margin-top: 30%; }
+
+nav {
+  margin-top: 15%; }
+  nav li {
+    display: inline-block; }
+
+.logo img {
+  width: 100%;
+  margin-bottom: 10%; }
+
+.log img {
+  margin-top: 60%;
+  width: 70%; }
+
+.carrito img {
+  margin-top: 60%;
+  width: 65%; }
+
+/* CARRUSEL */
+p {
+  text-align: center; }
+
+section {
+  border-top: 4px solid #FF7878;
+  background: #FEF0F0; }
+
+.carrusel {
+  margin-bottom: 15px;
+  margin-top: 20px; }
+  .carrusel video {
+    width: 100%; }
+
+#titulosF, #titulosP {
+  margin: 40px; }
+
+/* FLEX PINTURA Y FOTO */
+.fotografia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 50px; }
+
+/*  EFECTO */
+.piedefoto {
+  margin-left: 45px;
+  width: 90%;}
+  .piedefoto img {
+    width: 90%; }
+  
+
+
+/* FOOTER */
+footer {
+  background-color: #333333;
+  width: 100%; }
+  footer .RRSS, footer .links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%; }
+
+/* Sing up now */
+.login a {
+  color: grey;
+  text-decoration: none; }
+
+.login a:hover {
+  color: #FF7878;
+  text-decoration: underline; }
+
+.signup {
+  color: grey; }
+
+/* User y Pass */
+.login input {
+  border: none;
+  font-family: "Verdana"; }
+
+/* LogIn  */
+.login {
+  text-align: center;
+  margin: 50px auto;
+  width: 280px; }
+
+.login form input {
+  height: 50px;
+  color: #606468;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 198px; }
+
+/* Sign in */
+.login form input[type="submit"] {
+  background-color: #FF7878;
+  color: #eee;
+  font-weight: bold;
+  width: 95%; }
+  .login form input[type="submit"]:hover {
+    background-color: #EE5656; }
+
+/* Error 404 */
+.error {
+  font-family: "Verdana";
+  font-size: 30px;
+  color: grey;
+  text-align: center;
+  background-color: #FEF0F0;
+  height: 100%;
+  width: 100%; }
+
+.error h1 {
+  margin-left: 5%;
+  text-align: left; }
+
+.error h2 {
+  margin-right: 5%;
+  text-align: right; }
+
+#volver {
+  margin-left: 93%; }
+
+/*# sourceMappingURL=style.css.map */
