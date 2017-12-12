@@ -10,12 +10,12 @@ a {
   a:link {
     color: black; }
   a:hover {
-    color: #FF7878; }
+    color: #DEAD8A; }
 
 .links a:link {
-  color: #FF7878; }
+  color: #DEAD8A; }
 .links a:hover {
-  color: #FEF0F0;
+  color: #FFEDB2; 
   font-weight: bold; }
 
 /* HEADER */
@@ -46,9 +46,10 @@ nav {
 p {
   text-align: center; }
 
+/* color logo : ffedb2  */
 section {
-  border-top: 4px solid #FF7878;
-  background: #FEF0F0; }
+  border-top: 4px solid #DEAD8A;
+  background: #FCF3D6; }
 
 .carrusel {
   margin-bottom: 15px;
@@ -80,6 +81,7 @@ section {
 
 /* FOOTER */
 footer {
+  background-image: url("../img/droughtFooter.jpg");
   background-color: #333333;
   width: 100%; }
   footer .RRSS, footer .links {
