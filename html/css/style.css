@@ -155,3 +155,113 @@ footer {
   margin-left: 93%; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+.popup {
+    background-color: #ffffff;
+    color: #888888;
+    height: 245px;
+    left: 100%;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 550px;
+    z-index: 101;
+    -moz-box-shadow: 0px 0px 10px 1px #888888;
+    -webkit-box-shadow: 0px 0px 10px 1px #888888;
+    box-shadow: 0px 0px 10px 1px #888888;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+ 
+.overlay {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    opacity:0.5;
+}
+ 
+a.close {
+    background: url("cancel.png") repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    left: 32px;
+    position: relative;
+    top: -33px;
+    width: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+  #popup {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:0;
+  }
+    @-webkit-keyframes autopopup {
+      from {opacity: 0;margin-top:-200px;}
+      to {opacity: 1;}
+    }
+    @-moz-keyframes autopopup {
+      from {opacity: 0;margin-top:-200px;}
+      to {opacity: 1;}
+    }
+    @keyframes autopopup {
+      from {opacity: 0;margin-top:-200px;}
+      to {opacity: 1;}
+    }
+
+  #popup:target {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .popup-contenedor {
+    position: relative;
+    margin:7% auto;
+    padding:30px 50px;
+    background-color: #FCF3D6;
+    color:#333;
+    border-radius: 3px;
+    width: 25%;
+    height: 40%;
+  }
+
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  a.popup-cerrar {
+    position: absolute;
+    top:3px;
+    right:3px;
+    background-color: #333;
+    padding:7px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1;
+    color:#fff;
+  }
+
